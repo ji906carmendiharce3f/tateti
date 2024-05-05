@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    background-image: url('fondo.jpg');
+}
+
+h1 {
+    font-size: 24px;
+}
+
+#board {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 150px;
+    height: 150px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell img {
+    max-width: 90%;
+    max-height: 90%;
+    display: none;
+}
